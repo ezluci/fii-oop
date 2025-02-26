@@ -7,7 +7,7 @@ int ez_atoi(char s[])
    for (int i = 0; s[i]; ++i)
    {
       if ( !('0' <= s[i] && s[i] <= '9') ) {
-         
+         return -1;
       }
       x = x*10 + s[i]-'0';
    }
