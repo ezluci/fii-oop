@@ -1,0 +1,1 @@
+g++ main.cpp NumberList.cpp -o ./main

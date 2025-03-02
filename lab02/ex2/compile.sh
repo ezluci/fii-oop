@@ -1,0 +1,1 @@
+g++ main.cpp Student.cpp CompareStudents.cpp -o ./main
