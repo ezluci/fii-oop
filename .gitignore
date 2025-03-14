@@ -1,3 +1,5 @@
+.vscode
+
 lab01/in.txt
 lab01/1
 lab01/2
@@ -5,3 +7,6 @@ lab01/3
 
 lab02/ex1/main
 lab02/ex2/main
+
+lab03/ex1/main
+lab03/ex2/main
