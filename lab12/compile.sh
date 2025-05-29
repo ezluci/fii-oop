@@ -1,0 +1,1 @@
+g++ main.cpp Catalog.cpp CatalogEN.cpp CatalogRO.cpp Engleza.cpp Informatica.cpp Matematica.cpp Materie.cpp Optional1.cpp Optional2.cpp Romana.cpp Student.cpp -o main -O2

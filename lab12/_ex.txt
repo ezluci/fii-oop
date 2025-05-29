@@ -1,0 +1,28 @@
+Se va defini o clasă de bază Catalog, responsabilă pentru gestionarea notelor obținute de studenți. 
+
+Un obiect de tip catalog va conține o colecție de n studenți, iar fiecare student este înscris la m materii, 
+având note corespunzătoare pentru fiecare dintre acestea.
+
+Pentru reprezentarea materiilor, se va crea o clasă abstractă Materie, care va include cel puțin următoarele atribute: 
+tipul materiei (ex. opțională, obligatorie, facultativă), numele materiei, și numărul de credite aferente.
+
+Toate materiile concrete (precum Matematica, Romana, Engleza, Informatica, Optional1, Optional2) vor fi clase derivate din clasa abstractă Materie.
+
+Fiecare student va fi asociat cu un set individual de m materii, în funcție de parcursul său educațional. 
+
+Clasa Student va include informații relevante pentru identificare: nume complet, număr matricol, precum și programul de învățare 
+(de exemplu: limba română sau limba engleză).
+
+Clasa Catalog va fi abstractă și va fi specializată în două clase derivate: 
+CatalogRO (pentru programul în limba română) și CatalogEN (pentru cel în limba engleză). 
+Fiecare instanță de catalog va gestiona o listă proprie de studenți.
+
+Este necesar să se implementeze metode pentru:
+- adăugarea unui student în catalog,
+- obținerea notelor unui student,
+- calcularea mediei generale a unui student.
+
+În plus, clasa Catalog va include o metodă dedicată pentru clasificarea (ranking-ul) studenților în funcție de media generală.
+
+Se va implementa o metoda de filtrare a studentilor care va primi o functie lambda ca si parametru si va returna studentii care respecta
+regula definita in lambda.
